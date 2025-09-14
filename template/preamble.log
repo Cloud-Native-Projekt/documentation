@@ -1,0 +1,1079 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.11)  11 SEP 2025 17:47
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex
+(c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:15: Undefined control sequence.
+<argument> parskip=\myparskip 
+                              ,
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:15: Undefined control sequence.
+<argument> BCOR=\myBCOR 
+                        ,
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:15: Undefined control sequence.
+<argument> \mylaterality 
+                         
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:15: Undefined control sequence.
+<argument> parskip=\myparskip 
+                              ,
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:15: Undefined control sequence.
+<argument> BCOR=\myBCOR 
+                        ,
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:15: Undefined control sequence.
+<argument> \mylaterality 
+                         
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls
+Document Class: scrbook 2024/10/24 v3.43 KOMA-Script document class (book)
+(C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+ (C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+))) (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty:613: Undefined control sequence.
+\reserved@a ->\mylaterality 
+                            
+l.613 \FamilyProcessOptions{KOMA}
+                                 \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty:613: Undefined control sequence.
+\reserved@a ->\mylaterality 
+                            
+l.613 \FamilyProcessOptions{KOMA}
+                                 \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrkbase.sty:249: Undefined control sequence.
+\reserved@a ->\mylaterality 
+                            
+l.249 \KOMAProcessOptions
+                         \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrkbase.sty:249: Undefined control sequence.
+\reserved@a ->\mylaterality 
+                            
+l.249 \KOMAProcessOptions
+                         \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:2248: Undefined control sequence.
+\CurrentOption ->parskip=\myparskip 
+                                    
+l.2248 \KOMAProcessOptions
+                          \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:2248: Undefined control sequence.
+\CurrentOption ->parskip=\myparskip 
+                                    
+l.2248 \KOMAProcessOptions
+                          \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:2248: Undefined control sequence.
+<argument> BCOR=\myBCOR 
+                        
+l.2248 \KOMAProcessOptions
+                          \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:2248: Undefined control sequence.
+<argument> =\myBCOR 
+                    
+l.2248 \KOMAProcessOptions
+                          \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:2248: Undefined control sequence.
+<argument> ...oexpand \Ifdimen {\@gobble =\myBCOR 
+                                                  }}\reserved@a {\PassOption...
+l.2248 \KOMAProcessOptions
+                          \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:3024: Undefined control sequence.
+<argument> \@listi 
+                   
+l.3024   \l@addto@macro{\@listi}{\@list@extra}
+                                              %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:3026: Undefined control sequence.
+<argument> \@listii 
+                    
+l.3026   \l@addto@macro{\@listii}{\@list@extra}
+                                               %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:3027: Undefined control sequence.
+<argument> \@listiii 
+                     
+l.3027   \l@addto@macro{\@listiii}{\@list@extra}
+                                                %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:3028: Undefined control sequence.
+<argument> \footnotesize 
+                         
+l.3028 ...otesize}{\protect\add@extra@listi{ftns}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:3029: Undefined control sequence.
+<argument> \small 
+                  
+l.3029 ...o{\small}{\protect\add@extra@listi{sml}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\scr@dte@chapter@maxnumwidth=\skip49
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 6016.
+\scr@dte@section@maxnumwidth=\skip50
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 6027.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 6027.
+\scr@dte@part@maxnumwidth=\skip51
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 6036.
+\scr@dte@subsection@maxnumwidth=\skip52
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 6046.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 6046.
+\scr@dte@subsubsection@maxnumwidth=\skip53
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 6056.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 6056.
+\scr@dte@paragraph@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 6067.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 6067.
+\scr@dte@subparagraph@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 6077.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 6077.
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7271.
+\scr@dte@figure@maxnumwidth=\skip58
+\c@figure=\count194
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7288.
+\scr@dte@table@maxnumwidth=\skip59
+\c@table=\count195
+Missing character: There is no 0 in font nullfont!
+Class scrbook Info: Redefining `\numberline' on input line 7459.
+\bibindent=\dimen140
+
+C:\Users\dotzauer.c\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbook.cls:7915: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7915 \endinput
+                
+The document class `scrbook' is defective.
+It attempts to load `scrlogo' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+)
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:25: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 
+     
+The package `' is defective.
+It attempts to load `geometry' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:28: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 
+     
+The package `' is defective.
+It attempts to load `inputenc' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:36: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 
+     
+The package `' is defective.
+It attempts to load `babel' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:41: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \definecolor
+                 {DispositionColor}{RGB}{\mydispositioncolor}
+The package `' is defective.
+It attempts to load `xcolor' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:41: Undefined control sequence.
+<recently read> \definecolor 
+                             
+l.41 \definecolor
+                 {DispositionColor}{RGB}{\mydispositioncolor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:41: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \definecolor{D
+                   ispositionColor}{RGB}{\mydispositioncolor}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no B in font nullfont!
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:41: Undefined control sequence.
+l.41 ...DispositionColor}{RGB}{\mydispositioncolor
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:47: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \usepackage
+                {float}
+The package `' is defective.
+It attempts to load `graphicx' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:48: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 
+     
+The package `' is defective.
+It attempts to load `float' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:53: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 
+     
+The package `' is defective.
+It attempts to load `eso-pic' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:56: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \usepackage
+                {patchcmd}
+The package `' is defective.
+It attempts to load `acronym' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:57: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 
+     
+The package `' is defective.
+It attempts to load `patchcmd' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:62: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \usepackage
+                {csquotes}
+The package `' is defective.
+It attempts to load `biblatex' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:63: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 
+     
+The package `' is defective.
+It attempts to load `csquotes' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:66: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \usepackage
+                {fix-cm}
+The package `' is defective.
+It attempts to load `fontenc' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:67: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 
+     
+The package `' is defective.
+It attempts to load `fix-cm' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:71: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \addbibresource
+                    {etc/literature.bib}
+The package `' is defective.
+It attempts to load `minitoc' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:71: Undefined control sequence.
+<recently read> \addbibresource 
+                                
+l.71 \addbibresource
+                    {etc/literature.bib}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:71: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \addbibresource{e
+                      tc/literature.bib}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+\bibdata{Literaturverzeichnis}
+No file preamble.bbl.
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:84: Undefined control sequence.
+<argument> \mylinespread 
+                         
+l.84 \linespread{\mylinespread}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:127: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \usepackage
+                 {booktabs}
+The package `' is defective.
+It attempts to load `longtable' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:128: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \usepackage
+                 [table,xcdraw]{}
+The package `' is defective.
+It attempts to load `booktabs' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:129: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 \usepackage
+                 {colortbl}
+The package `' is defective.
+It attempts to load `' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:133: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 
+      
+The package `' is defective.
+It attempts to load `colortbl' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:136: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 
+      
+The package `' is defective.
+It attempts to load `minted' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:142: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 
+      
+The package `' is defective.
+It attempts to load `xcolor' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:144: Undefined control sequence.
+l.144 \definecolor
+                  {friendlybg}{HTML}{f0f0f0}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:144: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \definecolor{f
+                    riendlybg}{HTML}{f0f0f0}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 0 in font nullfont!
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:147: Undefined control sequence.
+l.147 \definecolor
+                  {codebg}{rgb}{0.95,0.95,0.95}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:147: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \definecolor{c
+                    odebg}{rgb}{0.95,0.95,0.95}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:148: Undefined control sequence.
+l.148 \setminted
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:160: LaTeX Error: Command \listingname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \renewcommand{\listingname}
+                                 {Auflistung}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:164: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 
+      
+The package `' is defective.
+It attempts to load `etoolbox' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:176: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \usepackage
+                 [figure,table,lstlisting]{totalcount}
+The package `' is defective.
+It attempts to load `listings' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:177: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \renewcommand
+                   {\lstlistingname}{Code}
+The package `' is defective.
+It attempts to load `totalcount' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:177: LaTeX Error: Command \lstlistingname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \renewcommand{\lstlistingname}
+                                    {Code}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:179: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \captionsetup
+                   [lstlisting]{skip=5pt,belowskip=15pt} %spacing for the label
+The package `' is defective.
+It attempts to load `caption' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:179: Undefined control sequence.
+<recently read> \captionsetup 
+                              
+l.179 \captionsetup
+                   [lstlisting]{skip=5pt,belowskip=15pt} %spacing for the label
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:179: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \captionsetup[
+                    lstlisting]{skip=5pt,belowskip=15pt} %spacing for the label
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:211: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 
+      
+The package `' is defective.
+It attempts to load `caption' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+
+c:/GitProjects/Cloud-Native-App-Lab-Report/template/preamble.tex:214: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 \usepackage
+                 {algpseudocode}
+The package `' is defective.
+It attempts to load `algorithm' in the options section, i.e.,
+between \DeclareOption and \ProcessOptions.
+
+)
+! Emergency stop.
+<*> ...Native-App-Lab-Report/template/preamble.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 3110 strings out of 474486
+ 74240 string characters out of 5753555
+ 1927542 words of memory out of 5000000
+ 25467 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,1n,107p,10955b,2408s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

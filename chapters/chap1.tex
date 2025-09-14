@@ -1,0 +1,23 @@
+
+\chapter{Vorstellung der Cloud-Native-Anwendung}
+Die in der Laborarbeit entwickelte Cloud-Native-Anwendung hat das Ziel, Nutzern wie Energieunternehmen oder Grundstückseigentümern bei der Suche nach geeigneten Standorten für erneuerbare Energien zu unterstützen. Hierfür werden sowohl historische als auch aktuelle Wetterdaten sowie geographische Gegebenheiten analysiert, um potenzielle Standorte für Wind- oder Solaranlagen zu identifizieren und umfassend zu bewerten.
+
+Die Bewertung dieser Standorte erfolgt anhand verschiedener Kriterien. Neben geeigneten Wetterbedingungen wird auch die Entfernung des Standorts zu bestehenden Stromleitungen berücksichtigt, da dies entscheidend für die wirtschaftliche Rentabilität einer möglichen Anlage ist. Zudem wird geprüft, ob sich der Standort in einem Naturschutzgebiet, im Wald oder in einem Wohngebiet befindet, da diese Faktoren Einfluss auf die Genehmigungschancen für den Bau einer Anlage haben.
+
+Die Anwendung bietet den Nutzern eine intuitive Benutzeroberfläche zur Visualisierung dieser Informationen, die bei der Entscheidungsfindung unterstützt und somit zur Planung von Wind- und Solaranlagen beiträgt.
+
+\section{Architektur der Cloud-Native-Anwendung}
+Die Architektur der Anwendung ist in zwei Hauptservices unterteilt:
+
+\textbf{Weather-Microservice:} Dieser Service ist verantwortlich für die Verarbeitung und Bereitstellung von Wetterdaten. Er bezieht seine Informationen über die OpenMeteo-APIs, die sowohl historische als auch aktuelle Wetterbedingungen bereitstellen. Die Wetterdaten werden in einer PostgreSQL-Datenbank gespeichert, um eine effiziente Abfrage und Analyse zu ermöglichen. Zudem beinhaltet der Weather-Microservice ein Modell zur Wettervorhersage, das auf historischen Wetterdaten basiert und Prognosen für zukünftige Wetterbedingungen erstellt.
+
+\textbf{Geo-Microservice:} Der Geo-Microservice liefert Informationen zur vorherrschenden Infrastruktur, einschließlich der Überprüfung der Entfernung zu bestehenden Stromleitungen und der Lage in Bezug auf Naturschutzgebiete, Wald oder Wohngebiete. Die Daten für diesen Service werden aus der Overpass-API von OpenStreetMap bezogen.
+
+Beide Microservices sind über REST-APIs erreichbar und in Containern isoliert, was eine flexible und skalierbare Architektur gewährleistet.
+
+
+Zur Orchestrierung der Container wird Kubernetes eingesetzt, das die Automatisierung von Deployments, die Skalierung und das Management der Container ermöglicht. Die Anwendung verwendet das App-of-Apps-Muster in Kubernetes, um eine hierarchische Struktur von Anwendungen zu schaffen, die eine effiziente Verwaltung der Microservices und ihrer Abhängigkeiten ermöglicht.
+
+\section{Automatisierung des Entwicklungsprozesses}
+Für die Automatisierung der Infrastruktur- und Anwendungsbereitstellung kommt Ansible zum Einsatz. Ansible ermöglicht es, wiederholbare und skalierbare Deployment-Prozesse zu erstellen, die die Konfiguration und den Betrieb des Kubernetes-Clusters sowie der Container orchestrieren.
+Zusätzlich wird ein CI/CD-Workflow implementiert, der die kontinuierliche Integration und Bereitstellung der Anwendung ermöglicht. Dies umfasst die automatisierte Erstellung von Docker-Images, das Testen der Anwendung und die Bereitstellung in der Produktionsumgebung. GitHub Actions werden verwendet, um den Build- und Deployment-Prozess zu automatisieren.

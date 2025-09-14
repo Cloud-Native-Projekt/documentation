@@ -1,0 +1,149 @@
+
+%% ========================================================================
+%%%% Document settings
+%% ========================================================================
+
+%% Document class with actual values
+\documentclass[parskip=half,BCOR=0mm,oneside]{scrbook}
+
+%% Custom commands (moved after \documentclass)
+\newcommand{\myparskip}{half}
+\newcommand{\myBCOR}{0mm}
+\newcommand{\mylaterality}{oneside}
+\newcommand{\mydispositioncolor}{22,72,154}
+\newcommand{\mylinespread}{1.5}
+\newcommand{\mycolorlinks}{false}  %% "true" or "false"
+\newcommand{\mylanguage}{american,ngerman}
+
+
+%% ========================================================================
+%%%% Document metadata
+%% ========================================================================
+
+%% Student:
+\newcommand{\myauthor}{Linus Baumann, Alexander Dixon, Cosima Dotzauer, Dennis Hilgert, Jonas Werner}
+\newcommand{\myhomestreet}{Berggasse 16}
+\newcommand{\myhomepostalnumber}{67269}
+\newcommand{\myhometown}{Grünstadt}
+\newcommand{\myid}{xxxxxxx, xxxxxxx, 3750882, xxxxxxx, xxxxxxx}
+
+%% Titel und PDF-Einstellungen
+\newcommand{\myworktype}{Laborabeit}
+\newcommand{\mytitle}{Entwicklung einer Cloud Native App}
+\newcommand{\mysubtitle}{ }
+\newcommand{\mysubject}{Laborarbeit}
+\newcommand{\mykeywords}{Key, Word}
+
+
+%% Dualer Partner
+\newcommand{\mydualpartner}{}
+%% Duale Hochschule
+\newcommand{\myuniversity}{DHBW-CAS}
+\newcommand{\mystudy}{Informatik}
+\newcommand{\myevaluator}{Prof. Dr. Christoph Sturm}
+\newcommand{\mysemester}{SoSe 2025}
+\newcommand{\mycourse}{W3M20035}
+\newcommand{\myworktitle}{in Cloud Infrastructures and Cloud Native Applications}
+%% Datum
+\newcommand{\mysubmissionday}{28}
+\newcommand{\mysubmissionmonth}{September}
+\newcommand{\mysubmissionyear}{2025}
+
+
+%% ========================================================================
+%%%% Other settings
+%% ========================================================================
+
+%% !!FIRST!! Load preamble
+\input{template/preamble}
+
+%\input{etc/hyphenation}
+
+%% !!LAST!! Do PDF settings
+\input{template/pdf_settings}
+%% ========================================================================
+%%%% begin{document}
+%% ========================================================================
+\usepackage{tikz}
+\begin{document}
+\sffamily
+\frontmatter
+
+%% Titelseite
+%% Layout mit Firmen und DHBW Angaben
+\input{template/title}
+%% Verwendung von Projekt-Deckblatt
+%%\input{template/dhbw_coverpage_projectreport}
+%% Verwendung von Projekt-Deckblatt
+%% \input{template/dhbw_coverpage_bachelor}
+
+%% Sperrvermerk
+%% \input{template/confidentiality_clause}
+%% Eidesstattliche Erklärung
+%% \input{template/declaration_affidavit}
+
+%% Abstract
+%% \include{chapters/chap0_abstract}
+
+%% Inhaltsverzeichnis
+\tableofcontents
+
+%% Abkürzungen
+\makeatletter
+\newcommand{\acroforeign}[1]{}
+%for german descritpion in acronyms
+\AtBeginEnvironment{acronym}{ \def\acroforeign#1{ (#1)}} % patch the environment to print the foreign definition
+
+\patchcmd\AC@@acro    % patch the acronym definition to safe the foreign definition
+  {\begingroup}
+  {\begingroup\def\acroforeign##1{\csdef{ac@#1@foreign}{##1, }}}
+  {}
+  {}
+%\input{etc/acronyms}
+%% Abbildungsverzeichnis anzeigen, wenn Abbildungen in Dokument enthalten sind
+\iftotalfigures
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\listfigurename}
+    \listoffigures
+\fi
+
+%% Tabellenverzeichnis anzeigen, wenn Tabellen in Dokument enthalten sind
+\iftotaltables
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\listtablename}
+    \listoftables
+\fi
+
+%% Code-Verzeichnis anzeigen, wenn Code-Blöcke in Dokument enthalten sind
+\renewcommand\lstlistlistingname{Code-Verzeichnis}
+\iftotallstlistings
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\lstlistlistingname}
+    \lstlistoflistings
+\fi
+%% Marks main part using arabic page numbers and such; Only available in scrbook
+\mainmatter
+
+%% Add new chapters here
+\input{chapters/chap1}
+\input{chapters/chap2}
+\input{chapters/chap3}
+\input{chapters/chap4}
+%%\input{chapters/chap3_mainpart03}
+%%\input{chapters/chap3_mainpart05_solution}
+%%\input{chapters/chap4_outlook}
+
+%% Literaturverzeichnis
+\printbibliography
+%%Anhang
+%Command to Hide appendix chapters in table of content
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup}
+%%\input{chapters/chap_examples}
+% page nummer appendix at page 42 in content
+\newpage
+%\input{chapters/appendix}
+\end{document}

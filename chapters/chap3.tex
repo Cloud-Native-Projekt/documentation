@@ -1,0 +1,36 @@
+\chapter{Cloud-Native Patterns in der Anwendungsarchitektur}
+In der entwickelten Cloud-Native-Anwendung zur Beratung für nachhaltige Energiegewinnungsstandorte finden sich verschiedene Cloud-Native Patterns, die sowohl aus dem Bereich Development & Design als auch Infrastructure & Cloud und Operations stammen. Diese Patterns tragen zur Effizienz, Skalierbarkeit und Wartbarkeit der Anwendung bei.
+
+\subsection{1. Microservices-Architektur}
+
+Ein zentrales Cloud-Native Pattern ist die \textbf{Microservices-Architektur}. In dieser Architektur wird die Anwendung in mehrere unabhängige, spezialisierte Services unterteilt, die jeweils eine bestimmte Funktion erfüllen. In der vorliegenden Anwendung gibt es beispielsweise den \textbf{Weather-Microservice}, der sich auf die Verarbeitung und Bereitstellung von Wetterdaten konzentriert, sowie den \textbf{Geo-Microservice}, der Informationen zur geographischen Infrastruktur bereitstellt.
+
+\textbf{Begründung des Einsatzes:} 
+Die Microservices-Architektur bietet mehrere Vorteile für die Anwendung. Erstens ermöglicht sie eine unabhängige Entwicklung und Bereitstellung der Services. Teams können an verschiedenen Komponenten arbeiten, ohne sich gegenseitig zu behindern, was die Entwicklungsgeschwindigkeit erhöht. Zweitens kann jeder Microservice unabhängig skaliert werden, was besonders wichtig ist, wenn beispielsweise die Abfrage von Wetterdaten während bestimmter Ereignisse (z.B. starker Wind oder extreme Wetterbedingungen) zunimmt. Diese Flexibilität ist entscheidend, um den Anforderungen der Nutzer gerecht zu werden und eine hohe Verfügbarkeit zu gewährleisten.
+
+\subsection{2. Containerisierung}
+
+Ein weiteres wichtiges Cloud-Native Pattern ist die \textbf{Containerisierung}. Durch die Verwendung von Containern, die in Kubernetes orchestriert werden, wird die Anwendung in isolierte Umgebungen verpackt, die alle benötigten Abhängigkeiten enthalten.
+
+\textbf{Begründung des Einsatzes:} 
+Die Containerisierung bietet zahlreiche Vorteile. Sie ermöglicht eine konsistente Ausführung der Anwendung, unabhängig von der zugrunde liegenden Infrastruktur, was besonders vorteilhaft ist, wenn die Anwendung in verschiedenen Umgebungen (z.B. Entwicklung, Test, Produktion) betrieben wird. Darüber hinaus erleichtert die Containerisierung die Skalierung und das Management der Anwendung, da Container bei Bedarf schnell gestartet oder gestoppt werden können. Diese Effizienz ist besonders wichtig, um die Ressourcen optimal zu nutzen und die Betriebskosten zu minimieren, insbesondere in einem Bereich, in dem Kosteneffizienz und Nachhaltigkeit von großer Bedeutung sind.
+
+\subsection{Alternative Patterns}
+
+Zusätzlich zu den oben genannten Patterns könnten auch folgende Cloud-Native Patterns in Betracht gezogen werden:
+
+\subsection{3. Event-Driven Architecture}
+
+Die \textbf{Event-Driven Architecture} könnte als Alternative implementiert werden, um die Kommunikation zwischen den Microservices zu optimieren. In einer solchen Architektur reagieren Microservices auf Ereignisse und kommunizieren über ein Messaging-System, anstatt direkt über REST-APIs.
+
+\textbf{Begründung des Einsatzes:} 
+Diese Architektur könnte die Entkopplung der Microservices weiter verbessern und die Reaktionsfähigkeit der Anwendung erhöhen. Beispielsweise könnten Wetterdaten als Ereignisse veröffentlicht werden, auf die andere Microservices reagieren, um Standortanalysen oder Benachrichtigungen zu aktualisieren. Dies würde die Gesamtleistung der Anwendung steigern und die Komplexität der direkten API-Interaktionen verringern.
+
+\subsection{4. Service Mesh}
+
+Ein weiteres relevantes Pattern ist die Implementierung eines \textbf{Service Mesh}, das eine verbesserte Verwaltung der Microservices-Kommunikation ermöglicht.
+
+\textbf{Begründung des Einsatzes:} 
+Ein Service Mesh bietet Funktionen wie Traffic Management, Sicherheit und Monitoring auf einer abstrahierten Ebene, was die Verwaltung der Microservices vereinfacht. Dadurch könnte die Anwendung robuster und sicherer werden, da Sicherheitsrichtlinien einfacher implementiert werden können, ohne dass Änderungen an den einzelnen Microservices erforderlich sind. Dies wäre besonders wichtig in einem Anwendungsbereich, der mit sensiblen Daten arbeitet, wie etwa den Standortinformationen für erneuerbare Energien.
+
+Insgesamt tragen die gewählten Cloud-Native Patterns dazu bei, die Anwendung effizient, flexibel und wartbar zu gestalten, während alternative Patterns zusätzliche Vorteile bieten könnten, die je nach zukünftigen Anforderungen und Entwicklungen in der Anwendung in Betracht gezogen werden sollten.

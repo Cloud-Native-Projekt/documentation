@@ -1,0 +1,40 @@
+\chapter{Vorteile und Nachteile der Cloud-Native-Realisation}
+In dem folgenden Kapitel werden die Vorteile und Nachteile der hier vorliegenden Cloud-Native-Realisierung im Vergleich zu anderen Ansätzen diskutiert sowie mögliche alternative Realisierungsmöglichkeiten aufgezeigt.
+
+\section{Vorteile und Nachteile der Cloud-Native-Realisation}
+
+Die Realisierung der Anwendung zur Unterstützung der Standortfindung für erneuerbare Energien als Cloud-Native-Anwendung bietet mehrere Vorteile:
+
+\textbf{Skalierbarkeit und Elastizität:} Bei steigender Nachfrage, beispielsweise wenn viele Nutzer gleichzeitig potenzielle Standorte für Wind- oder Solaranlagen abfragen, können zusätzliche Instanzen der Microservices schnell bereitgestellt werden, um die Last zu bewältigen. Dies wird durch die Containerisierung und Orchestrierung mit Kubernetes ermöglicht.
+
+\textbf{Unabhängige Entwicklung von Microservices:} Die Nutzung von Microservices erlaubt es verschiedenen Teams, parallel an spezifischen Komponenten der Anwendung zu arbeiten. So kann ein Team beispielsweise an der Wetterdatenverarbeitung arbeiten, während ein anderes Team gleichzeitig den Geo-Microservice weiterentwickelt. Dies beschleunigt die Einführung neuer Funktionen, wie die Integration zusätzlicher Wetterdatenquellen, ohne dass dies die gesamte Anwendung beeinträchtigt.
+
+\textbf{Resilienz und Verfügbarkeit:} Durch den Einsatz von Kubernetes-Primitiven wie Liveness- und Readiness-Probes wird sichergestellt, dass fehlerhafte Instanzen automatisch erkannt und neu gestartet werden. Gibt es zum Beispiel Fehler in der Wetterdatenabfrage, führen diese nicht zu einem Ausfall der gesamten Anwendung. Dies ist besonders wichtig, um die Verfügbarkeit der Anwendung für die Standortbewertung sicherzustellen.
+
+\textbf{Automatisierung in der Bereitstellung:} Die Implementierung von CI/CD-Pipelines zur Automatisierung des Entwicklungs- und Bereitstellungsprozesses reduziert menschliche Fehler und beschleunigt die Zeit von der Entwicklung bis zur Produktion. Dies ist entscheidend, um zeitnah auf Änderungen in den regulatorischen Anforderungen für erneuerbare Energien zu reagieren oder neue Datenquellen schnell zu integrieren. Tools wie Ansible erleichtern zudem das Infrastrukturmanagement, was die Effizienz der gesamten Anwendung steigert.
+
+Trotz dieser Vorteile gibt es auch einige \textbf{Nachteile.} 
+
+\textbf{Herausforderungen bei der Netzwerkkommunikation:} Die Kommunikation zwischen den Microservices erfolgt über Netzwerke, was potenzielle Latenzen und Sicherheitsrisiken mit sich bringt. Wenn beispielsweise der Geo-Microservice aufgrund von Netzwerkproblemen nicht erreichbar ist, kann dies die gesamte Anwendung beeinträchtigen und den Zugriff auf wichtige Informationen für die Standortbewertung verzögern. Dies gilt ebenso für den Zugriff auf externe APIs. Wenn eine externe API aufgrund von Netzwerkproblemen oder Serverausfällen nicht verfügbar ist, beeinträchtigt dies die Anwendung erheblich.
+
+\textbf{Erhöhter Overhead durch Containerisierung:} Jeder Microservice läuft in einem eigenen Container, was zusätzliche Ressourcen benötigt und die Infrastrukturverwaltung komplizierter gestaltet.
+
+\textbf{Herausforderungen bei der Netzwerkkommunikation:} Die Sicherheit und Effizienz der Datenübertragung zwischen dem Weather-Microservice und der PostgreSQL-Datenbank können Schwierigkeiten bereiten. Hier muss auf den Punkt Zugriffskontrolle geachtet werden.
+
+\section{Alternative Realisierungsmöglichkeiten}
+
+Alternativen zur Cloud-Native-Architektur sind die monolithische Architektur und traditionelle serverbasierte Anwendungen. Jede dieser Alternativen bietet spezifische Vor- und Nachteile, die im Kontext der entwickelten Anwendung zur Beratung für nachhaltige Energiegewinnungsstandorte berücksichtigt werden sollten.
+
+\subsection{Monolithische Architektur}
+Eine monolithische Architektur integriert alle Funktionen der Anwendung in einer einzigen, großen Codebasis. Dies kann die Komplexität reduzieren und die Verwaltung erleichtern, da alle Komponenten als eine Einheit entwickelt, getestet und bereitgestellt werden. 
+
+Für die vorliegende Anwendung würde dies bedeuten, dass sowohl die Verarbeitung der Wetterdaten als auch die geospatialen Analysen in einer einzigen Anwendung zusammengefasst wären. Dies könnte von Vorteil sein, da so alle Informationen zur Bewertung eines Standortes auf einmal gesammelt werden und nicht später zusammengeführt werden müssen.
+
+Allerdings bringt eine monolithische Architektur auch erhebliche Nachteile mit sich. Die Flexibilität und Skalierbarkeit würden stark eingeschränkt, da die gesamte Anwendung als Einheit skaliert werden müsste. Bei einem Anstieg der Nutzerzahlen, beispielsweise wenn viele Grundstückseigentümer gleichzeitig potenzielle Standorte abfragen, wäre es nicht möglich, nur die wetterbezogenen Funktionen zu skalieren. Dies könnte zu Performance-Problemen führen und die Reaktionsfähigkeit der Anwendung beeinträchtigen.
+
+\subsection{Traditionelle serverbasierte Anwendungen}
+Traditionelle serverbasierte Anwendungen bieten ebenfalls eine einfachere Verwaltung, da sie in der Regel auf einer einzigen Serverinstanz oder einer Gruppe von Servern betrieben werden. Diese Art der Architektur könnte die Komplexität der Bereitstellung und des Betriebs verringern, insbesondere in kleinen Teams mit begrenzten Ressourcen.
+
+Im Kontext der Anwendung zur Beratung für nachhaltige Energiegewinnungsstandorte könnte eine traditionelle serverbasierte Anwendung alle Funktionen auf einem zentralen Server bündeln. Dies könnte den initialen Aufwand für das Hosting und die Verwaltung der Anwendung verringern. Beispielsweise könnte die Anwendung alle Wetter- und Geoinformationen direkt von einem Server abrufen, ohne dass eine komplexe Container- oder Microservices-Architektur erforderlich wäre.
+
+Jedoch würde eine solche Architektur nicht die gleiche Agilität bieten wie Cloud-Native-Lösungen. Änderungen und Updates an einzelnen Komponenten der Anwendung könnten schwierig und zeitaufwändig sein, da jede Änderung die gesamte Anwendung betreffen würde. Zudem wäre die Skalierung in einer traditionellen serverbasierten Umgebung möglicherweise nicht so effizient, insbesondere wenn die Anwendung wachsen und viele Nutzer gleichzeitig bedienen muss.
