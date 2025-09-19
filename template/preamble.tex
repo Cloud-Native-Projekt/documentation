@@ -44,18 +44,16 @@
 %% Use biblatex for bibliography
 %% With "Sorting=None" the numbering is done according to the order of appearance. 
 \usepackage[style=numeric,sorting=none]{biblatex}
-%% Used for quotes
-\usepackage{csquotes}
+%% Used for quotes (loaded later after minted)
+% \usepackage{csquotes}
 
 %% Add fontec to hyphenate umlaut and fix-cm to fix changes in section heading
 \usepackage[T1]{fontenc}
 \usepackage{fix-cm}
 
-%% Use caption package before minitoc for correct order
-\usepackage[
-   font =      {footnotesize, sf}, %% Sans Serif font family
-   labelfont = {footnotesize, bf} %% Bold font series
-]{caption}
+%% Use caption package before minitoc; no KOMA option to avoid errors
+\usepackage{caption}
+\captionsetup{font={footnotesize,sf},labelfont={footnotesize,bf}}
 %% Produce a table of contents for each chapter, part or section
 \usepackage{minitoc}
 %% Add default bibliography
@@ -116,7 +114,6 @@
 %% Add package to add long text tables
 \usepackage{longtable}
 \usepackage{booktabs}
-\usepackage[table,xcdraw]{}
 \usepackage{colortbl}
 %% ========================================================================
 %%%% Source code highlighting
@@ -127,9 +124,6 @@
 
 %%\BeforeBeginEnvironment{minted}{\medskip}
 %%\AfterEndEnvironment{minted}{\smallskip}
-
-%% XColor for color definitions
-\usepackage{xcolor}
 
 %% Define background color for style "friendly"
 \definecolor{friendlybg}{HTML}{f0f0f0}
@@ -150,6 +144,9 @@
 
 \renewcommand{\listingname}{Auflistung}
 
+%% Load csquotes after fvextra/minted to avoid warnings
+\usepackage{csquotes}
+
 
 \usepackage{etoolbox}
 
@@ -162,16 +159,15 @@
 %% \begin{code}{<language>}{<caption>}{<label>} 
 %% ... 
 %% \end{code}
-%% is also used with listings so there is a list of code blocks
-\usepackage{listings}
-\usepackage[figure,table,lstlisting]{totalcount}
-\renewcommand{\lstlistingname}{Code}
-\usepackage{caption}
-\captionsetup[lstlisting]{skip=5pt,belowskip=15pt} %spacing for the label
+%% is also used with minted so there is a list of code blocks
+% listings removed to avoid clash with minted/newfloat 'listing' float
+\usepackage[figure,table,listing]{totalcount}
+%% Caption settings for minted 'listing' float
+\captionsetup[listing]{skip=5pt,belowskip=15pt} % spacing for the label
 %% the following see also here: https://github.com/gpoore/minted/issues/108
 \newcommand{\storeCaption}{}
 \newcommand{\storeLabel}{}
-\newenvironment{codelisting}{\captionsetup{type=lstlisting}}{}
+\newenvironment{codelisting}{\captionsetup{type=listing}}{}
 \newenvironment{code}[3]
 {%
 	\VerbatimEnvironment
@@ -194,11 +190,7 @@
 	\end{minipage}%
 }
 
-%% Use caption package to customize image, code and table captions
-\usepackage[
-    font =      {footnotesize, sf}, %% Sans Serif font family
-    labelfont = {footnotesize, bf} %% Bold font series
-]{caption}
+% caption is already loaded with KOMA integration above; avoid duplicate loads
 
 %%Packages for Pseudoalgorithm
 \usepackage{algorithm} 
